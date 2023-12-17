@@ -1,0 +1,17 @@
+1. Home Page 
+   Driver Page
+   Parent Page
+   Contact Page
+
+Note : The driver and parent page should only be accessible to logged in users.
+
+2. Signup and Login page for driver and parent
+
+3. A track driver page for the parents
+   A student pickup page for the driver
+
+4. Page or Modal (whatever you prefer) for driver to add their details and for parents to add their child details 
+
+5. Page where a parent can see all the drivers in his area
+
+6. A notification part where the parent and the driver can see all the notifications we send to them.

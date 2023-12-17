@@ -1,0 +1,18 @@
+.icons {
+    background-color: #eb9047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-weight: 500;
+    border-radius: 10px 10px 10px 0px;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icons:hover {
+    background-color: #3d63b0;
+}

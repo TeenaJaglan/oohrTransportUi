@@ -1,0 +1,259 @@
+/* HomePage.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff3e0; 
+  }
+  
+  .home-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3c59a;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .home-page-header img {
+    max-height: 40px;
+  }
+  
+  .home-page-header div {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .home-page-header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .about-content {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .aside-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .aside-about p {
+    width: 50%;
+    font-size: medium;
+  }
+  
+  .aside-about img {
+    width: 40%;
+  }
+  
+  .how-it-works {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .how-blocks {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .how-blocks div {
+    border: 2px solid #ff9800; 
+    background-color: #ffe0b2; 
+    padding: 20px;
+    width: 18%; 
+    box-sizing: border-box;
+  }
+  
+  .how-blocks h3 {
+    color: #333;
+  }
+  
+  .advantage {
+    background-color: #ffcc80; 
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .download-links {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .download-links a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #ff9800; 
+  }
+  
+  .video {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  
+  .our-process div {
+    border: 2px solid #ff9800; 
+    background-color: #ffe0b2; 
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(240, 237, 223);
+  
+    width: 18%; 
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  .how-it-works div {
+    border: 2px solid #ff9800; 
+    background-color: #ffe0b2; 
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    background-color: rgb(240, 237, 223);
+  
+    width: 18%; 
+    box-sizing: border-box;
+  }
+  .pricing-plan div {
+    border: 2px solid #ff9800; 
+    background-color: #ffe0b2; 
+    padding: 20px;
+    margin: 20px;
+    width: 18%; 
+    box-sizing: border-box;
+    display: flex;
+    align-items: row;
+    display: inline-block;
+    background-color: rgb(240, 237, 223);
+   
+  }
+  
+  
+  .pricing-plan {
+    background-color: #ffcc80; 
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .contact-us {
+    padding: 40px;
+    text-align: center;
+  }
+  .our-process {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  
+  
+  footer {
+    padding: 20px;
+    background-color: #ff9800; 
+    color: #fff;
+    text-align: center;
+  }
+  .section:nth-child(odd) {
+    background-color: #ffe0b2; 
+  }
+  
+  .section:nth-child(even) {
+    background-color: #ffd180; 
+  }
+  
+  
+  .contact-us {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .contact-us h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .oohr-details,
+  .contact-form {
+    flex: 1;
+    max-width: 400px;
+    margin: 0 20px;
+    text-align: left;
+  }
+  
+  .oohr-details h3,
+  .contact-form h4 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .oohr-details p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .oohr-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .oohr-details li {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #e64a19;
+  }
+  
